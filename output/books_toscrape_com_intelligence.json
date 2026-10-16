@@ -1,0 +1,904 @@
+{
+  "pages": [
+    {
+      "url": "https://books.toscrape.com/",
+      "title": "All products | Books to Scrape - Sandbox",
+      "meta_description": "",
+      "headings": [
+        "All products",
+        "A Light in the ...",
+        "Tipping the Velvet",
+        "Soumission",
+        "Sharp Objects",
+        "Sapiens: A Brief History ...",
+        "The Requiem Red",
+        "The Dirty Little Secrets ...",
+        "The Coming Woman: A ...",
+        "The Boys in the ...",
+        "The Black Maria",
+        "Starving Hearts (Triangular Trade ...",
+        "Shakespeare's Sonnets",
+        "Set Me Free",
+        "Scott Pilgrim's Precious Little ...",
+        "Rip it Up and ...",
+        "Our Band Could Be ...",
+        "Olio",
+        "Mesaerion: The Best Science ...",
+        "Libertarianism for Beginners",
+        "It's Only the Himalayas"
+      ],
+      "paragraphs": [
+        "£51.77",
+        "In stock",
+        "£53.74",
+        "In stock",
+        "£50.10",
+        "In stock",
+        "£47.82",
+        "In stock",
+        "£54.23",
+        "In stock",
+        "£22.65",
+        "In stock",
+        "£33.34",
+        "In stock",
+        "£17.93",
+        "In stock",
+        "£22.60",
+        "In stock",
+        "£52.15",
+        "In stock",
+        "£13.99",
+        "In stock",
+        "£20.66",
+        "In stock",
+        "£17.46",
+        "In stock",
+        "£52.29",
+        "In stock",
+        "£35.02",
+        "In stock",
+        "£57.25",
+        "In stock",
+        "£23.88",
+        "In stock",
+        "£37.59",
+        "In stock",
+        "£51.33",
+        "In stock",
+        "£45.17",
+        "In stock"
+      ],
+      "links": [
+        {
+          "text": "Books to Scrape",
+          "href": "index.html"
+        },
+        {
+          "text": "Home",
+          "href": "index.html"
+        },
+        {
+          "text": "Books",
+          "href": "catalogue/category/books_1/index.html"
+        },
+        {
+          "text": "Travel",
+          "href": "catalogue/category/books/travel_2/index.html"
+        },
+        {
+          "text": "Mystery",
+          "href": "catalogue/category/books/mystery_3/index.html"
+        },
+        {
+          "text": "Historical Fiction",
+          "href": "catalogue/category/books/historical-fiction_4/index.html"
+        },
+        {
+          "text": "Sequential Art",
+          "href": "catalogue/category/books/sequential-art_5/index.html"
+        },
+        {
+          "text": "Classics",
+          "href": "catalogue/category/books/classics_6/index.html"
+        },
+        {
+          "text": "Philosophy",
+          "href": "catalogue/category/books/philosophy_7/index.html"
+        },
+        {
+          "text": "Romance",
+          "href": "catalogue/category/books/romance_8/index.html"
+        },
+        {
+          "text": "Womens Fiction",
+          "href": "catalogue/category/books/womens-fiction_9/index.html"
+        },
+        {
+          "text": "Fiction",
+          "href": "catalogue/category/books/fiction_10/index.html"
+        },
+        {
+          "text": "Childrens",
+          "href": "catalogue/category/books/childrens_11/index.html"
+        },
+        {
+          "text": "Religion",
+          "href": "catalogue/category/books/religion_12/index.html"
+        },
+        {
+          "text": "Nonfiction",
+          "href": "catalogue/category/books/nonfiction_13/index.html"
+        },
+        {
+          "text": "Music",
+          "href": "catalogue/category/books/music_14/index.html"
+        },
+        {
+          "text": "Default",
+          "href": "catalogue/category/books/default_15/index.html"
+        },
+        {
+          "text": "Science Fiction",
+          "href": "catalogue/category/books/science-fiction_16/index.html"
+        },
+        {
+          "text": "Sports and Games",
+          "href": "catalogue/category/books/sports-and-games_17/index.html"
+        },
+        {
+          "text": "Add a comment",
+          "href": "catalogue/category/books/add-a-comment_18/index.html"
+        },
+        {
+          "text": "Fantasy",
+          "href": "catalogue/category/books/fantasy_19/index.html"
+        },
+        {
+          "text": "New Adult",
+          "href": "catalogue/category/books/new-adult_20/index.html"
+        },
+        {
+          "text": "Young Adult",
+          "href": "catalogue/category/books/young-adult_21/index.html"
+        },
+        {
+          "text": "Science",
+          "href": "catalogue/category/books/science_22/index.html"
+        },
+        {
+          "text": "Poetry",
+          "href": "catalogue/category/books/poetry_23/index.html"
+        },
+        {
+          "text": "Paranormal",
+          "href": "catalogue/category/books/paranormal_24/index.html"
+        },
+        {
+          "text": "Art",
+          "href": "catalogue/category/books/art_25/index.html"
+        },
+        {
+          "text": "Psychology",
+          "href": "catalogue/category/books/psychology_26/index.html"
+        },
+        {
+          "text": "Autobiography",
+          "href": "catalogue/category/books/autobiography_27/index.html"
+        },
+        {
+          "text": "Parenting",
+          "href": "catalogue/category/books/parenting_28/index.html"
+        },
+        {
+          "text": "Adult Fiction",
+          "href": "catalogue/category/books/adult-fiction_29/index.html"
+        },
+        {
+          "text": "Humor",
+          "href": "catalogue/category/books/humor_30/index.html"
+        },
+        {
+          "text": "Horror",
+          "href": "catalogue/category/books/horror_31/index.html"
+        },
+        {
+          "text": "History",
+          "href": "catalogue/category/books/history_32/index.html"
+        },
+        {
+          "text": "Food and Drink",
+          "href": "catalogue/category/books/food-and-drink_33/index.html"
+        },
+        {
+          "text": "Christian Fiction",
+          "href": "catalogue/category/books/christian-fiction_34/index.html"
+        },
+        {
+          "text": "Business",
+          "href": "catalogue/category/books/business_35/index.html"
+        },
+        {
+          "text": "Biography",
+          "href": "catalogue/category/books/biography_36/index.html"
+        },
+        {
+          "text": "Thriller",
+          "href": "catalogue/category/books/thriller_37/index.html"
+        },
+        {
+          "text": "Contemporary",
+          "href": "catalogue/category/books/contemporary_38/index.html"
+        },
+        {
+          "text": "Spirituality",
+          "href": "catalogue/category/books/spirituality_39/index.html"
+        },
+        {
+          "text": "Academic",
+          "href": "catalogue/category/books/academic_40/index.html"
+        },
+        {
+          "text": "Self Help",
+          "href": "catalogue/category/books/self-help_41/index.html"
+        },
+        {
+          "text": "Historical",
+          "href": "catalogue/category/books/historical_42/index.html"
+        },
+        {
+          "text": "Christian",
+          "href": "catalogue/category/books/christian_43/index.html"
+        },
+        {
+          "text": "Suspense",
+          "href": "catalogue/category/books/suspense_44/index.html"
+        },
+        {
+          "text": "Short Stories",
+          "href": "catalogue/category/books/short-stories_45/index.html"
+        },
+        {
+          "text": "Novels",
+          "href": "catalogue/category/books/novels_46/index.html"
+        },
+        {
+          "text": "Health",
+          "href": "catalogue/category/books/health_47/index.html"
+        },
+        {
+          "text": "Politics",
+          "href": "catalogue/category/books/politics_48/index.html"
+        },
+        {
+          "text": "Cultural",
+          "href": "catalogue/category/books/cultural_49/index.html"
+        },
+        {
+          "text": "Erotica",
+          "href": "catalogue/category/books/erotica_50/index.html"
+        },
+        {
+          "text": "Crime",
+          "href": "catalogue/category/books/crime_51/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/a-light-in-the-attic_1000/index.html"
+        },
+        {
+          "text": "A Light in the ...",
+          "href": "catalogue/a-light-in-the-attic_1000/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/tipping-the-velvet_999/index.html"
+        },
+        {
+          "text": "Tipping the Velvet",
+          "href": "catalogue/tipping-the-velvet_999/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/soumission_998/index.html"
+        },
+        {
+          "text": "Soumission",
+          "href": "catalogue/soumission_998/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/sharp-objects_997/index.html"
+        },
+        {
+          "text": "Sharp Objects",
+          "href": "catalogue/sharp-objects_997/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/sapiens-a-brief-history-of-humankind_996/index.html"
+        },
+        {
+          "text": "Sapiens: A Brief History ...",
+          "href": "catalogue/sapiens-a-brief-history-of-humankind_996/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/the-requiem-red_995/index.html"
+        },
+        {
+          "text": "The Requiem Red",
+          "href": "catalogue/the-requiem-red_995/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html"
+        },
+        {
+          "text": "The Dirty Little Secrets ...",
+          "href": "catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html"
+        },
+        {
+          "text": "The Coming Woman: A ...",
+          "href": "catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html"
+        },
+        {
+          "text": "The Boys in the ...",
+          "href": "catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/the-black-maria_991/index.html"
+        },
+        {
+          "text": "The Black Maria",
+          "href": "catalogue/the-black-maria_991/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html"
+        },
+        {
+          "text": "Starving Hearts (Triangular Trade ...",
+          "href": "catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/shakespeares-sonnets_989/index.html"
+        },
+        {
+          "text": "Shakespeare's Sonnets",
+          "href": "catalogue/shakespeares-sonnets_989/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/set-me-free_988/index.html"
+        },
+        {
+          "text": "Set Me Free",
+          "href": "catalogue/set-me-free_988/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html"
+        },
+        {
+          "text": "Scott Pilgrim's Precious Little ...",
+          "href": "catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/rip-it-up-and-start-again_986/index.html"
+        },
+        {
+          "text": "Rip it Up and ...",
+          "href": "catalogue/rip-it-up-and-start-again_986/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html"
+        },
+        {
+          "text": "Our Band Could Be ...",
+          "href": "catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/olio_984/index.html"
+        },
+        {
+          "text": "Olio",
+          "href": "catalogue/olio_984/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html"
+        },
+        {
+          "text": "Mesaerion: The Best Science ...",
+          "href": "catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/libertarianism-for-beginners_982/index.html"
+        },
+        {
+          "text": "Libertarianism for Beginners",
+          "href": "catalogue/libertarianism-for-beginners_982/index.html"
+        },
+        {
+          "text": "",
+          "href": "catalogue/its-only-the-himalayas_981/index.html"
+        },
+        {
+          "text": "It's Only the Himalayas",
+          "href": "catalogue/its-only-the-himalayas_981/index.html"
+        },
+        {
+          "text": "next",
+          "href": "catalogue/page-2.html"
+        }
+      ],
+      "text": "All products | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home All products Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance Womens Fiction Fiction Childrens Religion Nonfiction Music Default Science Fiction Sports and Games Add a comment Fantasy New Adult Young Adult Science Poetry Paranormal Art Psychology Autobiography Parenting Adult Fiction Humor Horror History Food and Drink Christian Fiction Business Biography Thriller Contemporary Spirituality Academic Self Help Historical Christian Suspense Short Stories Novels Health Politics Cultural Erotica Crime All products 1000 results - showing 1 to 20 . Warning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning. A Light in the ... £51.77 In stock Add to basket Tipping the Velvet £53.74 In stock Add to basket Soumission £50.10 In stock Add to basket Sharp Objects £47.82 In stock Add to basket Sapiens: A Brief History ... £54.23 In stock Add to basket The Requiem Red £22.65 In stock Add to basket The Dirty Little Secrets ... £33.34 In stock Add to basket The Coming Woman: A ... £17.93 In stock Add to basket The Boys in the ... £22.60 In stock Add to basket The Black Maria £52.15 In stock Add to basket Starving Hearts (Triangular Trade ... £13.99 In stock Add to basket Shakespeare's Sonnets £20.66 In stock Add to basket Set Me Free £17.46 In stock Add to basket Scott Pilgrim's Precious Little ... £52.29 In stock Add to basket Rip it Up and ... £35.02 In stock Add to basket Our Band Could Be ... £57.25 In stock Add to basket Olio £23.88 In stock Add to basket Mesaerion: The Best Science ... £37.59 In stock Add to basket Libertarianism for Beginners £51.33 In stock Add to basket It's Only the Himalayas £45.17 In stock Add to basket Page 1 of 50 next",
+      "word_count": 317,
+      "status_code": 200,
+      "requested_url": "https://books.toscrape.com/",
+      "final_url": "https://books.toscrape.com/",
+      "llm_analysis": {
+        "page_title": "All Products - Books to Scrape Demo",
+        "summary": "Books to Scrape is a demo website designed exclusively for web scraping practice. It features a catalog of fictional books across various genres, with randomly assigned prices and ratings. The site includes navigation links to different book categories and displays a list of sample products for educational purposes.",
+        "topics": [
+          "web scraping demonstration",
+          "fictional book catalog",
+          "book genres classification",
+          "demo website structure",
+          "randomized pricing and ratings"
+        ],
+        "key_facts": [
+          "Website is a demo for web scraping practice only; prices and ratings are randomly assigned and lack real-world relevance.",
+          "Displays 1000+ fictional books across 30+ genres (e.g., Fiction, Nonfiction, Science Fiction, Mystery, Philosophy).",
+          "Current page shows 20 books out of 1000 total results (paginated with 50 pages total).",
+          "Books include titles like *Sapiens*, *Sharp Objects*, *Scott Pilgrim’s Precious Little*, and *Shakespeare’s Sonnets*.",
+          "Features navigation for genres: Historical Fiction, Romance, Science Fiction, Fantasy, Nonfiction, and more.",
+          "Warning explicitly states: 'This is a demo website for web scraping purposes.'"
+        ],
+        "entities": [
+          "Books to Scrape (demo website)",
+          "Web scraping (as the primary use case)",
+          "Fictional book genres (e.g., Mystery, Philosophy, Science Fiction, Romance, Historical Fiction, Nonfiction, etc.)",
+          "Sample book titles (*A Light in the Attic*, *Tipping the Velvet*, *Soumission*, *Sapiens*, *Scott Pilgrim’s Precious Little*)"
+        ],
+        "contact_information": [],
+        "page_url": "https://books.toscrape.com/",
+        "model_used": "ministral-8b-latest"
+      }
+    },
+    {
+      "url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+      "title": "Travel | \n     Books to Scrape - Sandbox",
+      "meta_description": "",
+      "headings": [
+        "Travel",
+        "It's Only the Himalayas",
+        "Full Moon over Noah’s ...",
+        "See America: A Celebration ...",
+        "Vagabonding: An Uncommon Guide ...",
+        "Under the Tuscan Sun",
+        "A Summer In Europe",
+        "The Great Railway Bazaar",
+        "A Year in Provence ...",
+        "The Road to Little ...",
+        "Neither Here nor There: ...",
+        "1,000 Places to See ..."
+      ],
+      "paragraphs": [
+        "£45.17",
+        "In stock",
+        "£49.43",
+        "In stock",
+        "£48.87",
+        "In stock",
+        "£36.94",
+        "In stock",
+        "£37.33",
+        "In stock",
+        "£44.34",
+        "In stock",
+        "£30.54",
+        "In stock",
+        "£56.88",
+        "In stock",
+        "£23.21",
+        "In stock",
+        "£38.95",
+        "In stock",
+        "£26.08",
+        "In stock"
+      ],
+      "links": [
+        {
+          "text": "Books to Scrape",
+          "href": "../../../../index.html"
+        },
+        {
+          "text": "Home",
+          "href": "../../../../index.html"
+        },
+        {
+          "text": "Books",
+          "href": "../../books_1/index.html"
+        },
+        {
+          "text": "Books",
+          "href": "../../books_1/index.html"
+        },
+        {
+          "text": "Travel",
+          "href": "index.html"
+        },
+        {
+          "text": "Mystery",
+          "href": "../mystery_3/index.html"
+        },
+        {
+          "text": "Historical Fiction",
+          "href": "../historical-fiction_4/index.html"
+        },
+        {
+          "text": "Sequential Art",
+          "href": "../sequential-art_5/index.html"
+        },
+        {
+          "text": "Classics",
+          "href": "../classics_6/index.html"
+        },
+        {
+          "text": "Philosophy",
+          "href": "../philosophy_7/index.html"
+        },
+        {
+          "text": "Romance",
+          "href": "../romance_8/index.html"
+        },
+        {
+          "text": "Womens Fiction",
+          "href": "../womens-fiction_9/index.html"
+        },
+        {
+          "text": "Fiction",
+          "href": "../fiction_10/index.html"
+        },
+        {
+          "text": "Childrens",
+          "href": "../childrens_11/index.html"
+        },
+        {
+          "text": "Religion",
+          "href": "../religion_12/index.html"
+        },
+        {
+          "text": "Nonfiction",
+          "href": "../nonfiction_13/index.html"
+        },
+        {
+          "text": "Music",
+          "href": "../music_14/index.html"
+        },
+        {
+          "text": "Default",
+          "href": "../default_15/index.html"
+        },
+        {
+          "text": "Science Fiction",
+          "href": "../science-fiction_16/index.html"
+        },
+        {
+          "text": "Sports and Games",
+          "href": "../sports-and-games_17/index.html"
+        },
+        {
+          "text": "Add a comment",
+          "href": "../add-a-comment_18/index.html"
+        },
+        {
+          "text": "Fantasy",
+          "href": "../fantasy_19/index.html"
+        },
+        {
+          "text": "New Adult",
+          "href": "../new-adult_20/index.html"
+        },
+        {
+          "text": "Young Adult",
+          "href": "../young-adult_21/index.html"
+        },
+        {
+          "text": "Science",
+          "href": "../science_22/index.html"
+        },
+        {
+          "text": "Poetry",
+          "href": "../poetry_23/index.html"
+        },
+        {
+          "text": "Paranormal",
+          "href": "../paranormal_24/index.html"
+        },
+        {
+          "text": "Art",
+          "href": "../art_25/index.html"
+        },
+        {
+          "text": "Psychology",
+          "href": "../psychology_26/index.html"
+        },
+        {
+          "text": "Autobiography",
+          "href": "../autobiography_27/index.html"
+        },
+        {
+          "text": "Parenting",
+          "href": "../parenting_28/index.html"
+        },
+        {
+          "text": "Adult Fiction",
+          "href": "../adult-fiction_29/index.html"
+        },
+        {
+          "text": "Humor",
+          "href": "../humor_30/index.html"
+        },
+        {
+          "text": "Horror",
+          "href": "../horror_31/index.html"
+        },
+        {
+          "text": "History",
+          "href": "../history_32/index.html"
+        },
+        {
+          "text": "Food and Drink",
+          "href": "../food-and-drink_33/index.html"
+        },
+        {
+          "text": "Christian Fiction",
+          "href": "../christian-fiction_34/index.html"
+        },
+        {
+          "text": "Business",
+          "href": "../business_35/index.html"
+        },
+        {
+          "text": "Biography",
+          "href": "../biography_36/index.html"
+        },
+        {
+          "text": "Thriller",
+          "href": "../thriller_37/index.html"
+        },
+        {
+          "text": "Contemporary",
+          "href": "../contemporary_38/index.html"
+        },
+        {
+          "text": "Spirituality",
+          "href": "../spirituality_39/index.html"
+        },
+        {
+          "text": "Academic",
+          "href": "../academic_40/index.html"
+        },
+        {
+          "text": "Self Help",
+          "href": "../self-help_41/index.html"
+        },
+        {
+          "text": "Historical",
+          "href": "../historical_42/index.html"
+        },
+        {
+          "text": "Christian",
+          "href": "../christian_43/index.html"
+        },
+        {
+          "text": "Suspense",
+          "href": "../suspense_44/index.html"
+        },
+        {
+          "text": "Short Stories",
+          "href": "../short-stories_45/index.html"
+        },
+        {
+          "text": "Novels",
+          "href": "../novels_46/index.html"
+        },
+        {
+          "text": "Health",
+          "href": "../health_47/index.html"
+        },
+        {
+          "text": "Politics",
+          "href": "../politics_48/index.html"
+        },
+        {
+          "text": "Cultural",
+          "href": "../cultural_49/index.html"
+        },
+        {
+          "text": "Erotica",
+          "href": "../erotica_50/index.html"
+        },
+        {
+          "text": "Crime",
+          "href": "../crime_51/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../its-only-the-himalayas_981/index.html"
+        },
+        {
+          "text": "It's Only the Himalayas",
+          "href": "../../../its-only-the-himalayas_981/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html"
+        },
+        {
+          "text": "Full Moon over Noah’s ...",
+          "href": "../../../full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html"
+        },
+        {
+          "text": "See America: A Celebration ...",
+          "href": "../../../see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-travel_552/index.html"
+        },
+        {
+          "text": "Vagabonding: An Uncommon Guide ...",
+          "href": "../../../vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-travel_552/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../under-the-tuscan-sun_504/index.html"
+        },
+        {
+          "text": "Under the Tuscan Sun",
+          "href": "../../../under-the-tuscan-sun_504/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../a-summer-in-europe_458/index.html"
+        },
+        {
+          "text": "A Summer In Europe",
+          "href": "../../../a-summer-in-europe_458/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../the-great-railway-bazaar_446/index.html"
+        },
+        {
+          "text": "The Great Railway Bazaar",
+          "href": "../../../the-great-railway-bazaar_446/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../a-year-in-provence-provence-1_421/index.html"
+        },
+        {
+          "text": "A Year in Provence ...",
+          "href": "../../../a-year-in-provence-provence-1_421/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../the-road-to-little-dribbling-adventures-of-an-american-in-britain-notes-from-a-small-island-2_277/index.html"
+        },
+        {
+          "text": "The Road to Little ...",
+          "href": "../../../the-road-to-little-dribbling-adventures-of-an-american-in-britain-notes-from-a-small-island-2_277/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../neither-here-nor-there-travels-in-europe_198/index.html"
+        },
+        {
+          "text": "Neither Here nor There: ...",
+          "href": "../../../neither-here-nor-there-travels-in-europe_198/index.html"
+        },
+        {
+          "text": "",
+          "href": "../../../1000-places-to-see-before-you-die_1/index.html"
+        },
+        {
+          "text": "1,000 Places to See ...",
+          "href": "../../../1000-places-to-see-before-you-die_1/index.html"
+        }
+      ],
+      "text": "Travel | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home Books Travel Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance Womens Fiction Fiction Childrens Religion Nonfiction Music Default Science Fiction Sports and Games Add a comment Fantasy New Adult Young Adult Science Poetry Paranormal Art Psychology Autobiography Parenting Adult Fiction Humor Horror History Food and Drink Christian Fiction Business Biography Thriller Contemporary Spirituality Academic Self Help Historical Christian Suspense Short Stories Novels Health Politics Cultural Erotica Crime Travel 11 results. Warning! This is a demo website for web scraping purposes. Prices and ratings here were randomly assigned and have no real meaning. It's Only the Himalayas £45.17 In stock Add to basket Full Moon over Noah’s ... £49.43 In stock Add to basket See America: A Celebration ... £48.87 In stock Add to basket Vagabonding: An Uncommon Guide ... £36.94 In stock Add to basket Under the Tuscan Sun £37.33 In stock Add to basket A Summer In Europe £44.34 In stock Add to basket The Great Railway Bazaar £30.54 In stock Add to basket A Year in Provence ... £56.88 In stock Add to basket The Road to Little ... £23.21 In stock Add to basket Neither Here nor There: ... £38.95 In stock Add to basket 1,000 Places to See ... £26.08 In stock Add to basket",
+      "word_count": 226,
+      "status_code": 200,
+      "requested_url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+      "final_url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+      "llm_analysis": {
+        "page_title": "Travel Books Category - Books to Scrape Demo",
+        "summary": "This webpage is a demo category page for travel-themed books from the 'Books to Scrape' sandbox website, designed for web scraping practice. It lists 11 randomly assigned books with fake prices, stock statuses, and ratings, emphasizing that the data is not real and lacks authenticity.",
+        "topics": [
+          "Travel Books",
+          "Web Scraping Demo",
+          "Books to Scrape Sandbox",
+          "Fiction Nonfiction",
+          "Book Categories"
+        ],
+        "key_facts": [
+          "The page displays a category of travel-related books (e.g., *It's Only the Himalayas*, *Vagabonding*, *A Summer in Europe*).",
+          "Prices and ratings are randomly generated and have no real-world relevance.",
+          "All listed books are marked as 'In stock'.",
+          "The page warns users that this is a demo site for educational scraping purposes.",
+          "11 books are currently featured in the category."
+        ],
+        "entities": [
+          "Books to Scrape",
+          "Travel Books (category)",
+          "*It's Only the Himalayas* (book)",
+          "*Full Moon over Noah’s...* (book)",
+          "*See America: A Celebration...* (book)",
+          "*Vagabonding: An Uncommon Guide...* (book)",
+          "*Under the Tuscan Sun* (book)",
+          "*A Summer in Europe* (book)",
+          "*The Great Railway Bazaar* (book)",
+          "*A Year in Provence...* (book)",
+          "*The Road to Little...* (book)",
+          "*Neither Here nor There:...* (book)",
+          "*1,000 Places to See...* (book)"
+        ],
+        "contact_information": [],
+        "page_url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+        "model_used": "ministral-8b-latest"
+      }
+    }
+  ],
+  "site_summary": {
+    "website_name": "Books to Scrape",
+    "executive_overview": "Books to Scrape is a **sandbox demo website** specifically designed for **web scraping practice**, simulating an e-commerce platform for fictional books. It provides a structured catalog of books across various genres with randomized pricing, ratings, and stock availability to facilitate educational and testing purposes for developers and data analysts.",
+    "primary_categories": [
+      "All Books",
+      "Travel Books",
+      "Book Genres (Fiction/Nonfiction)"
+    ],
+    "key_highlights": [
+      "Exclusively a **demo website** for web scraping exercises, not a real e-commerce platform.",
+      "Features a **catalog of fictional books** with randomized prices, ratings, and stock statuses.",
+      "Supports **category-based navigation** (e.g., Travel, Fiction, Nonfiction) for structured scraping practice.",
+      "Designed to **mimic real-world e-commerce structures** (e.g., pagination, product listings, metadata).",
+      "Data is **non-authentic** and intentionally artificial for educational purposes.",
+      "Includes **metadata fields** like availability, reviews, and genre classification.",
+      "Serves as a **testbed for scraping tools** (e.g., BeautifulSoup, Scrapy, Selenium).",
+      "No real transactions or purchases are possible—focused solely on **data extraction practice**."
+    ],
+    "overall_topics": [
+      "Web Scraping Demonstration",
+      "Educational E-Commerce Sandbox",
+      "Fictional Book Catalog Structure",
+      "Genre-Based Book Classification",
+      "Randomized Data Generation for Testing",
+      "Metadata Extraction Practice",
+      "Demo Website Architecture",
+      "Nonfiction and Fiction Segmentation"
+    ]
+  }
+}

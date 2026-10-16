@@ -1,87 +1,115 @@
 # AI Website Intelligence & LLM Extractor
 
-An automated system that fetches any entered website or webpage URL, parses and extracts the clean content, uses Mistral AI to extract structured facts, summaries, topics, and contact intelligence, and stores everything into an **executable Python script (`.py`)**, **JSON (`.json`)**, and a **Markdown report (`.md`)**.
+An automated system that fetches any website or webpage URL (including **authenticated/login-protected sites**), discovers the site structure and sections, lets you select what to crawl, extracts structured facts and intelligence using Mistral AI, and stores everything into an **executable Python script (`.py`)**, **JSON (`.json`)**, and a **Markdown report (`.md`)**.
 
 ---
 
-## Features
+## What's New
 
-- **Single URL or Multi-Page Crawl**:
-  - **Single Page Mode**: Directly fetch and analyze any specific URL (blogs, homepages, product pages).
-  - **Website Crawl Mode**: Crawl across internal links on the same domain up to any custom limit (`--max-pages`).
-- **Resilient Web Fetcher & HTML Parser**:
-  - Uses realistic browser headers and session handling to prevent `403 Forbidden` errors.
-  - Automatically filters out binary assets (`.pdf`, `.png`, `.jpg`, `.zip`, `.mp4`).
-  - Cleans scripts, styles, iframes, and extract title, meta descriptions, headings, paragraphs, and links.
-- **Mistral LLM Intelligence Engine**:
-  - Automatically handles `mistralai>=3.0` import compatibility.
-  - Uses `ministral-8b-latest` (fast, free-tier friendly) with automatic fallback to `ministral-3b-latest` and `mistral-small-latest`.
-  - Built-in exponential backoff retry for HTTP 429 rate limit errors.
-  - Extracts executive summaries, topics, key facts, entities, and contact details.
-  - Automatically generates an overarching site synthesis report when crawling multiple pages.
-- **Multi-Format Storage**:
-  - **Python Script (`.py`)**: Stores the data as an executable Python script with helper functions (`get_page_by_url`, `search_by_topic`, `get_all_key_facts`, `get_all_contacts`).
-  - **JSON (`.json`)**: Formatted data dump for interoperability.
-  - **Markdown (`.md`)**: Human-readable executive summary and detailed page breakdown.
+1. **Authentication & Login Support**:
+   - **Cookie-Based Auth**: Paste raw session cookie string from browser dev tools (or load a cookie file).
+   - **Form-Based Login**: Automatically submits credentials to a login URL, auto-detects CSRF tokens, and preserves authenticated session cookies across the entire crawl.
+   - **Bearer Token Auth**: Supports `Authorization: Bearer <token>` for token-based apps.
+   - **HTTP Basic Auth**: Supports `username:password` basic authentication.
+2. **Site Structure Discovery & Section Preview**:
+   - Scans the starting website and categorizes internal links into logical sections (e.g. `/docs/`, `/products/`, `/blog/`).
+   - Shows the total pages discovered, breakdown by section, and sample page titles before crawling.
+   - Lets you choose:
+     - **Crawl ALL discovered pages**
+     - **Crawl top N pages**
+     - **Crawl specific section(s)** (e.g. only `/docs/`)
+     - **Crawl specific page number(s)** (e.g. `1, 3, 5-8`)
+     - **Crawl single starting URL**
 
 ---
 
 ## How to Run
 
-### 1. Interactive Mode
-Run the script without arguments and follow the prompts:
+### 1. Guided Interactive Wizard
+Run without arguments to be guided through site discovery, authentication, and selection:
 ```bash
 python main.py
 ```
 
-### 2. Single Page Extraction
-Fetch and extract intelligence from a single webpage:
+### 2. Preview Site Structure Without Crawling
+Inspect the discovered sections and page count before making a decision:
 ```bash
-python main.py --url https://example.com
+python main.py --url https://books.toscrape.com --preview-only
 ```
 
-### 3. Crawl Website (Multi-Page)
-Crawl internal links on the website (e.g. up to 5 pages):
+### 3. Crawl Specific Pages by Numbers
+Crawl selected pages from the discovery map (e.g. pages 1, 4, 7-10):
 ```bash
-python main.py --url https://books.toscrape.com --crawl --max-pages 5
+python main.py --url https://books.toscrape.com --pages 1,4
 ```
 
-### 4. Fast Crawl Without LLM
-Fetch and parse HTML without consuming LLM tokens:
+### 4. Authenticated Web Scraping
+
+#### Form-based Login (Credentials + CSRF handling)
 ```bash
-python main.py --url https://example.com --no-llm
+python main.py --url https://quotes.toscrape.com/ --login-url https://quotes.toscrape.com/login --username my_user --password my_pass --max-pages 5
+```
+
+#### Browser Cookie String
+```bash
+python main.py --url https://app.example.com/dashboard --cookie "sessionid=abc123xyz; auth_token=def456"
+```
+
+#### Bearer Token
+```bash
+python main.py --url https://api.example.com/docs --bearer "eyJhbGciOi..."
+```
+
+#### HTTP Basic Auth
+```bash
+python main.py --url https://staging.example.com --basic-auth "admin:secretpassword"
 ```
 
 ---
 
-## Using the Generated Python Script
+## Using the Stored Python Script
 
-The system saves all extracted data into a `.py` file inside the `output/` folder (e.g. `output/example_com_intelligence.py`).
+All extracted intelligence is written directly into an importable, executable Python script (`output/<site>_intelligence.py`):
 
-You can execute it directly:
 ```bash
-python output/example_com_intelligence.py
+python output/quotes_toscrape_com_intelligence.py
 ```
 
-Or import it into your own Python projects:
+Or import it directly in any Python project:
 ```python
 import sys
 sys.path.append("output")
 
-from example_com_intelligence import (
+from quotes_toscrape_com_intelligence import (
     EXTRACTED_PAGES,
     get_all_key_facts,
     search_by_topic,
     get_all_contacts,
 )
 
-# Search pages matching a topic keyword
-results = search_by_topic("pricing")
+# Search pages by topic keyword
+results = search_by_topic("quotes")
 
-# Get all key facts extracted across all pages
+# Retrieve all key facts across the crawled pages
 facts = get_all_key_facts()
 for fact in facts:
     print("-", fact)
+```
+
+---
+
+## Running Tests
+
+Verify all components:
+```bash
+# Test URL normalization and filters
+python test_urls.py
+
+# Test Mistral LLM structured fact extraction
+python test_llm.py
+
+# Test Authentication Manager (Cookie, Bearer, Basic, and Form Login)
+python test_auth.py
 ```
 
 ---
@@ -90,16 +118,18 @@ for fact in facts:
 
 ```
 website-tracker/
-├── crawler.py           # Crawling queue, BFS link manager, site synthesis coordinator
-├── fetcher.py           # HTTP requests with browser headers and encoding detection
-├── html_parser.py       # BeautifulSoup extraction of clean text, headings, and links
-├── llm_extractor.py     # Mistral AI client with retry, fallback models, and schema extraction
+├── auth_manager.py      # Cookie, Bearer, Basic, and Form login with CSRF handling
+├── crawler.py           # Site structure discovery, BFS queue, targeted crawl runner
+├── fetcher.py           # HTTP requests with session persistence and browser headers
+├── html_parser.py       # BeautifulSoup extraction of clean text, metadata, headings
+├── url_manager.py       # Normalization, domain boundaries, and section classification
+├── llm_extractor.py     # Mistral AI client with retry, model fallback, and schema extraction
+├── storage.py           # Exporter for Python script (.py), JSON (.json), Markdown (.md)
 ├── main.py              # CLI and interactive user interface
-├── storage.py           # Multi-format exporter (Python script, JSON, Markdown)
-├── test_llm.py          # Verification test for Mistral LLM extraction
-├── test_urls.py         # Verification test for URL normalization and filters
+├── test_auth.py         # Verification tests for authentication methods
+├── test_llm.py          # Verification tests for LLM extraction
+├── test_urls.py         # Verification tests for URL manager
 ├── output/              # Auto-generated .py, .json, and .md output files
-├── .env                 # Environment variables (MISTRAL_API_KEY, MISTRAL_MODEL)
+├── .env                 # Environment variables (MISTRAL_API_KEY, AUTH_*)
 └── requirements.txt     # Python dependencies
 ```
-

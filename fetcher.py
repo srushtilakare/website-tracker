@@ -1,6 +1,7 @@
 """
 Webpage fetcher module.
-Fetches web pages using requests with browser headers, timeouts, and error handling.
+Fetches web pages using requests.Session with browser headers, cookie persistence,
+timeouts, and robust error handling.
 """
 
 import logging
@@ -21,24 +22,28 @@ DEFAULT_HEADERS = {
 }
 
 
-def fetch_page(url: str, timeout: int = 15, headers: dict[str, str] | None = None) -> dict[str, Any]:
+def fetch_page(
+    url: str,
+    session: requests.Session | None = None,
+    timeout: int = 15,
+    headers: dict[str, str] | None = None,
+) -> dict[str, Any]:
     """
     Fetch a webpage and return its URL, status code, content type, and HTML text.
-    
-    Raises:
-        requests.RequestException on network or HTTP errors.
+    Reuses the provided requests.Session to maintain authenticated cookies.
     """
+    client_session = session if session is not None else requests.Session()
+
     req_headers = {**DEFAULT_HEADERS, **(headers or {})}
 
-    session = requests.Session()
-    response = session.get(
+    response = client_session.get(
         url,
         headers=req_headers,
         timeout=timeout,
         allow_redirects=True,
     )
 
-    # Detect encoding if not set properly
+    # Detect character encoding cleanly
     if response.encoding is None or response.encoding == "ISO-8859-1":
         response.encoding = response.apparent_encoding or "utf-8"
 
@@ -50,4 +55,5 @@ def fetch_page(url: str, timeout: int = 15, headers: dict[str, str] | None = Non
         "status_code": response.status_code,
         "content_type": response.headers.get("Content-Type", ""),
         "html": response.text,
+        "cookies": client_session.cookies.get_dict(),
     }
