@@ -1,0 +1,91 @@
+{
+  "url": "https://www.google.com/",
+  "title": "Google",
+  "headings": [],
+  "paragraphs": [
+    "© 2026 - Privacy - Terms"
+  ],
+  "links": [
+    {
+      "text": "Gmail",
+      "href": "https://mail.google.com/mail/&ogbl"
+    },
+    {
+      "text": "Images",
+      "href": "https://www.google.com/imghp?hl=en&ogbl"
+    },
+    {
+      "text": "",
+      "href": "https://www.google.co.in/intl/en/about/products"
+    },
+    {
+      "text": "Sign in",
+      "href": "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ"
+    },
+    {
+      "text": "Advanced search",
+      "href": "/advanced_search?hl=en-IN&authuser=0"
+    },
+    {
+      "text": "हिन्दी",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCAU"
+    },
+    {
+      "text": "বাংলা",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCAY"
+    },
+    {
+      "text": "తెలుగు",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCAc"
+    },
+    {
+      "text": "मराठी",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCAg"
+    },
+    {
+      "text": "தமிழ்",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCAk"
+    },
+    {
+      "text": "ગુજરાતી",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCAo"
+    },
+    {
+      "text": "ಕನ್ನಡ",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCAs"
+    },
+    {
+      "text": "മലയാളം",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCAw"
+    },
+    {
+      "text": "ਪੰਜਾਬੀ",
+      "href": "https://www.google.com/setprefs?sig=0_cLpVu1Dv_3UttvJe9uakMSqCsKQ%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjFoJ2twL6XAxUEzzgGHUPcLsEQ2ZgBCA0"
+    },
+    {
+      "text": "Advertising",
+      "href": "/intl/en/ads/"
+    },
+    {
+      "text": "Business Solutions",
+      "href": "http://www.google.co.in/services/"
+    },
+    {
+      "text": "About Google",
+      "href": "/intl/en/about.html"
+    },
+    {
+      "text": "Google.co.in",
+      "href": "https://www.google.com/setprefdomain?prefdom=IN&prev=https://www.google.co.in/&sig=AI4_-kR3pbh5PGDF8_dfWqTkaTyY7MQeVQ"
+    },
+    {
+      "text": "Privacy",
+      "href": "/intl/en/policies/privacy/"
+    },
+    {
+      "text": "Terms",
+      "href": "/intl/en/policies/terms/"
+    }
+  ],
+  "text": "Google Gmail Images Sign in Advanced search Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ Advertising Business Solutions About Google Google.co.in © 2026 - Privacy - Terms Google apps"
+}
